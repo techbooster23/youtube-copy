@@ -1,0 +1,14 @@
+
+.banner {
+    height: 200px;
+    width: 100%;
+    object-fit: fill;
+}
+
+/* Adding Media Queries */
+
+@media (max-width: 900px) {
+    .banner-container {
+        display: none;
+    }
+}
